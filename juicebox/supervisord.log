@@ -1,0 +1,592 @@
+2022-01-27 09:35:18,932 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 09:35:18,932 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 09:35:18,932 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 09:35:18,932 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 09:35:18,932 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 09:35:18,937 INFO supervisord started with pid 7
+2022-01-27 09:35:19,939 INFO spawned: 'xvfb' with pid 9
+2022-01-27 09:35:19,940 INFO spawned: 'x11vnc' with pid 10
+2022-01-27 09:35:19,941 INFO spawned: 'fluxbox' with pid 11
+2022-01-27 09:35:19,943 INFO spawned: 'websockify' with pid 12
+2022-01-27 09:35:19,944 INFO spawned: 'xterm' with pid 13
+2022-01-27 09:35:19,979 INFO exited: xterm (exit status 1; not expected)
+2022-01-27 09:35:19,979 INFO exited: fluxbox (exit status 1; not expected)
+2022-01-27 09:35:21,321 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:35:21,321 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:35:21,323 INFO spawned: 'fluxbox' with pid 48
+2022-01-27 09:35:21,323 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:35:21,324 INFO spawned: 'xterm' with pid 49
+2022-01-27 09:35:23,245 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:35:23,245 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:38:44,224 INFO exited: xterm (exit status 0; expected)
+2022-01-27 09:38:45,228 INFO spawned: 'xterm' with pid 78
+2022-01-27 09:38:46,308 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:40:20,949 INFO exited: xterm (exit status 0; expected)
+2022-01-27 09:40:21,952 INFO spawned: 'xterm' with pid 127
+2022-01-27 09:40:22,951 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:40:27,957 WARN received SIGINT indicating exit request
+2022-01-27 09:40:27,957 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 09:40:27,959 INFO stopped: xterm (exit status 15)
+2022-01-27 09:40:27,999 INFO stopped: websockify (exit status 0)
+2022-01-27 09:40:28,008 INFO stopped: fluxbox (exit status 0)
+2022-01-27 09:40:31,013 INFO waiting for xvfb, x11vnc to die
+2022-01-27 09:40:34,017 INFO waiting for xvfb, x11vnc to die
+2022-01-27 09:40:37,021 INFO waiting for xvfb, x11vnc to die
+2022-01-27 09:40:38,022 WARN killing 'x11vnc' (10) with SIGKILL
+2022-01-27 09:40:38,024 INFO stopped: x11vnc (terminated by SIGKILL)
+2022-01-27 09:40:38,036 INFO stopped: xvfb (exit status 0)
+2022-01-27 09:45:42,040 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 09:45:42,042 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 09:45:42,042 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 09:45:42,042 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 09:45:42,042 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 09:45:42,049 INFO supervisord started with pid 6
+2022-01-27 09:45:43,052 INFO spawned: 'xvfb' with pid 8
+2022-01-27 09:45:43,054 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 09:45:43,055 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 09:45:43,056 INFO spawned: 'websockify' with pid 11
+2022-01-27 09:45:43,057 INFO spawned: 'xterm' with pid 12
+2022-01-27 09:45:43,076 INFO exited: xterm (exit status 1; not expected)
+2022-01-27 09:45:43,076 INFO exited: fluxbox (exit status 1; not expected)
+2022-01-27 09:45:44,250 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:45:44,252 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:45:44,254 INFO spawned: 'fluxbox' with pid 47
+2022-01-27 09:45:44,254 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:45:44,255 INFO spawned: 'xterm' with pid 48
+2022-01-27 09:45:45,950 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:45:45,951 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:45:50,957 WARN received SIGINT indicating exit request
+2022-01-27 09:45:50,958 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 09:45:50,959 INFO stopped: xterm (exit status 15)
+2022-01-27 09:45:50,995 INFO stopped: websockify (exit status 0)
+2022-01-27 09:45:50,998 INFO stopped: fluxbox (exit status 0)
+2022-01-27 09:45:51,000 INFO stopped: x11vnc (exit status 2)
+2022-01-27 09:45:51,008 INFO stopped: xvfb (exit status 0)
+2022-01-27 09:50:19,371 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 09:50:19,373 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 09:50:19,373 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 09:50:19,373 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 09:50:19,373 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 09:50:19,380 INFO supervisord started with pid 6
+2022-01-27 09:50:20,383 INFO spawned: 'xvfb' with pid 8
+2022-01-27 09:50:20,384 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 09:50:20,385 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 09:50:20,387 INFO spawned: 'websockify' with pid 11
+2022-01-27 09:50:20,388 INFO spawned: 'xterm' with pid 12
+2022-01-27 09:50:22,116 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:50:22,117 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:50:22,117 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:50:22,117 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:50:22,117 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:52:41,421 WARN received SIGINT indicating exit request
+2022-01-27 09:52:41,422 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 09:52:41,423 INFO stopped: xterm (exit status 15)
+2022-01-27 09:52:41,462 INFO stopped: websockify (exit status 0)
+2022-01-27 09:52:41,465 INFO stopped: fluxbox (exit status 0)
+2022-01-27 09:52:41,467 INFO stopped: x11vnc (exit status 2)
+2022-01-27 09:52:41,475 INFO stopped: xvfb (exit status 0)
+2022-01-27 09:54:11,698 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 09:54:11,700 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 09:54:11,700 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 09:54:11,700 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 09:54:11,700 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 09:54:11,708 INFO supervisord started with pid 6
+2022-01-27 09:54:12,710 INFO spawned: 'xvfb' with pid 8
+2022-01-27 09:54:12,712 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 09:54:12,713 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 09:54:12,715 INFO spawned: 'websockify' with pid 11
+2022-01-27 09:54:12,716 INFO spawned: 'xterm' with pid 12
+2022-01-27 09:54:14,436 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:54:14,436 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:54:14,436 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:54:14,436 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 09:54:14,438 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:01:13,989 WARN received SIGINT indicating exit request
+2022-01-27 10:01:13,991 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:01:13,993 INFO stopped: xterm (exit status 15)
+2022-01-27 10:01:14,028 INFO stopped: websockify (exit status 0)
+2022-01-27 10:01:14,031 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:01:14,051 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:01:14,083 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:10:29,393 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:10:29,396 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:10:29,396 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:10:29,396 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:10:29,397 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:10:29,403 INFO supervisord started with pid 6
+2022-01-27 10:10:30,405 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:10:30,407 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:10:30,408 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:10:30,409 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:10:30,411 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:10:32,138 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:10:32,138 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:10:32,138 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:10:32,138 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:10:32,138 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:10:42,151 WARN received SIGINT indicating exit request
+2022-01-27 10:10:42,151 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:10:42,153 INFO stopped: xterm (exit status 15)
+2022-01-27 10:10:42,180 INFO stopped: websockify (exit status 0)
+2022-01-27 10:10:42,182 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:10:42,183 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:10:42,191 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:12:06,159 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:12:06,160 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:12:06,160 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:12:06,160 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:12:06,160 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:12:06,167 INFO supervisord started with pid 6
+2022-01-27 10:12:07,170 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:12:07,172 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:12:07,173 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:12:07,174 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:12:07,175 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:12:08,895 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:08,895 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:08,895 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:08,895 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:08,895 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:36,761 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:12:37,765 INFO spawned: 'xterm' with pid 67
+2022-01-27 10:12:38,768 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:12:43,470 WARN received SIGINT indicating exit request
+2022-01-27 10:12:43,470 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:12:43,472 INFO stopped: xterm (exit status 15)
+2022-01-27 10:12:43,505 INFO stopped: websockify (exit status 0)
+2022-01-27 10:12:43,508 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:12:43,509 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:12:43,518 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:16:15,024 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:16:15,025 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:16:15,025 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:16:15,025 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:16:15,025 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:16:15,036 INFO supervisord started with pid 6
+2022-01-27 10:16:16,039 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:16:16,041 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:16:16,042 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:16:16,043 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:16:16,045 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:16:17,752 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:16:17,752 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:16:17,752 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:16:17,752 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:16:17,752 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:18:07,217 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:18:08,221 INFO spawned: 'xterm' with pid 105
+2022-01-27 10:18:09,284 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:18:54,841 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:18:55,844 INFO spawned: 'xterm' with pid 135
+2022-01-27 10:18:56,846 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:23:53,828 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:23:54,832 INFO spawned: 'xterm' with pid 141
+2022-01-27 10:23:55,834 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:24:01,230 WARN received SIGINT indicating exit request
+2022-01-27 10:24:01,230 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:24:01,231 INFO stopped: xterm (exit status 15)
+2022-01-27 10:24:01,262 INFO stopped: websockify (exit status 0)
+2022-01-27 10:24:01,265 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:24:01,267 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:24:01,277 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:27:12,710 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:27:12,713 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:27:12,713 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:27:12,713 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:27:12,713 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:27:12,720 INFO supervisord started with pid 6
+2022-01-27 10:27:13,724 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:27:13,726 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:27:13,728 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:27:13,729 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:27:13,730 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:27:13,771 INFO exited: fluxbox (exit status 1; not expected)
+2022-01-27 10:27:13,772 INFO exited: xterm (exit status 1; not expected)
+2022-01-27 10:27:15,127 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:27:15,127 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:27:15,128 INFO spawned: 'fluxbox' with pid 47
+2022-01-27 10:27:15,128 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:27:15,129 INFO spawned: 'xterm' with pid 48
+2022-01-27 10:27:17,067 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:27:17,067 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:31:34,338 WARN received SIGINT indicating exit request
+2022-01-27 10:31:34,339 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:31:34,340 INFO stopped: xterm (exit status 15)
+2022-01-27 10:31:34,376 INFO stopped: websockify (exit status 0)
+2022-01-27 10:31:34,379 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:31:34,395 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:31:34,422 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:35:55,357 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:35:55,359 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:35:55,359 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:35:55,359 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:35:55,359 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:35:55,364 INFO supervisord started with pid 6
+2022-01-27 10:35:56,367 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:35:56,368 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:35:56,369 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:35:56,370 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:35:56,372 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:35:58,170 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:35:58,170 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:35:58,170 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:35:58,170 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:35:58,170 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:48:36,119 WARN received SIGINT indicating exit request
+2022-01-27 10:48:36,121 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:48:36,122 INFO stopped: xterm (exit status 15)
+2022-01-27 10:48:36,155 INFO stopped: websockify (exit status 0)
+2022-01-27 10:48:36,158 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:48:36,160 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:48:36,172 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:48:47,422 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:48:47,429 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:48:47,429 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:48:47,429 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:48:47,429 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:48:47,435 INFO supervisord started with pid 6
+2022-01-27 10:48:48,437 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:48:48,438 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:48:48,439 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:48:48,441 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:48:48,442 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:48:50,152 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:48:50,154 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:48:50,154 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:48:50,154 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:48:50,154 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:49:17,893 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:49:18,897 INFO spawned: 'xterm' with pid 60
+2022-01-27 10:49:19,966 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:49:25,190 WARN received SIGINT indicating exit request
+2022-01-27 10:49:25,190 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:49:25,191 INFO stopped: xterm (exit status 15)
+2022-01-27 10:49:25,222 INFO stopped: websockify (exit status 0)
+2022-01-27 10:49:25,225 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:49:25,227 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:49:25,234 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:50:04,185 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:50:04,185 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:50:04,185 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:50:04,185 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:50:04,185 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:50:04,190 INFO supervisord started with pid 6
+2022-01-27 10:50:05,191 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:50:05,193 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:50:05,194 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:50:05,195 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:50:05,197 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:50:06,399 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:50:06,399 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:50:06,399 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:50:06,399 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:50:06,399 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:52:15,348 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:52:16,352 INFO spawned: 'xterm' with pid 115
+2022-01-27 10:52:17,426 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:21,147 INFO exited: xterm (exit status 0; expected)
+2022-01-27 10:53:22,151 INFO spawned: 'xterm' with pid 148
+2022-01-27 10:53:23,152 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:43,234 WARN received SIGINT indicating exit request
+2022-01-27 10:53:43,234 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 10:53:43,235 INFO stopped: xterm (exit status 15)
+2022-01-27 10:53:43,276 INFO stopped: websockify (exit status 0)
+2022-01-27 10:53:43,280 INFO stopped: fluxbox (exit status 0)
+2022-01-27 10:53:44,285 INFO stopped: x11vnc (exit status 2)
+2022-01-27 10:53:44,294 INFO stopped: xvfb (exit status 0)
+2022-01-27 10:53:55,786 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 10:53:55,788 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 10:53:55,788 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 10:53:55,788 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 10:53:55,788 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 10:53:55,796 INFO supervisord started with pid 6
+2022-01-27 10:53:56,800 INFO spawned: 'xvfb' with pid 8
+2022-01-27 10:53:56,801 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 10:53:56,802 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 10:53:56,804 INFO spawned: 'websockify' with pid 11
+2022-01-27 10:53:56,805 INFO spawned: 'xterm' with pid 12
+2022-01-27 10:53:58,553 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:58,553 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:58,553 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:58,554 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 10:53:58,554 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:02:44,949 INFO exited: xterm (exit status 0; expected)
+2022-01-27 11:02:45,952 INFO spawned: 'xterm' with pid 121
+2022-01-27 11:02:47,023 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:02:52,046 WARN received SIGINT indicating exit request
+2022-01-27 11:02:52,046 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:02:52,047 INFO stopped: xterm (exit status 15)
+2022-01-27 11:02:52,079 INFO stopped: websockify (exit status 0)
+2022-01-27 11:02:52,083 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:02:52,085 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:02:52,097 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:04:20,051 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:04:20,053 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:04:20,053 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:04:20,053 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:04:20,053 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:04:20,062 INFO supervisord started with pid 6
+2022-01-27 11:04:21,065 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:04:21,066 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:04:21,067 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:04:21,069 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:04:21,070 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:04:22,782 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:04:22,782 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:04:22,782 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:04:22,782 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:04:22,782 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:06:35,901 WARN received SIGINT indicating exit request
+2022-01-27 11:06:35,902 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:06:35,904 INFO stopped: xterm (exit status 15)
+2022-01-27 11:06:35,950 INFO stopped: websockify (exit status 0)
+2022-01-27 11:06:35,953 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:06:35,955 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:06:35,965 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:07:03,751 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:07:03,753 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:07:03,753 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:07:03,753 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:07:03,753 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:07:03,757 INFO supervisord started with pid 7
+2022-01-27 11:07:04,759 INFO spawned: 'xvfb' with pid 9
+2022-01-27 11:07:04,761 INFO spawned: 'x11vnc' with pid 10
+2022-01-27 11:07:04,762 INFO spawned: 'fluxbox' with pid 11
+2022-01-27 11:07:04,764 INFO spawned: 'websockify' with pid 12
+2022-01-27 11:07:04,765 INFO spawned: 'xterm' with pid 13
+2022-01-27 11:07:06,506 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:07:06,506 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:07:06,506 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:07:06,506 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:07:06,506 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:09:45,057 WARN received SIGINT indicating exit request
+2022-01-27 11:09:45,057 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:09:45,058 INFO stopped: xterm (exit status 15)
+2022-01-27 11:09:45,093 INFO stopped: websockify (exit status 0)
+2022-01-27 11:09:45,096 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:09:45,098 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:09:45,106 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:10:42,271 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:10:42,273 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:10:42,273 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:10:42,273 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:10:42,273 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:10:42,281 INFO supervisord started with pid 6
+2022-01-27 11:10:43,284 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:10:43,285 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:10:43,286 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:10:43,287 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:10:43,289 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:10:45,015 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:10:45,016 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:10:45,016 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:10:45,016 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:10:45,016 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:12:39,134 WARN received SIGINT indicating exit request
+2022-01-27 11:12:39,135 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:12:39,136 INFO stopped: xterm (exit status 15)
+2022-01-27 11:12:39,171 INFO stopped: websockify (exit status 0)
+2022-01-27 11:12:39,174 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:12:39,176 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:12:39,183 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:14:19,423 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:14:19,424 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:14:19,424 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:14:19,424 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:14:19,424 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:14:19,433 INFO supervisord started with pid 6
+2022-01-27 11:14:20,436 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:14:20,438 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:14:20,439 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:14:20,440 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:14:20,442 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:14:22,160 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:22,162 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:22,162 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:22,162 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:22,162 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:22,162 WARN received SIGINT indicating exit request
+2022-01-27 11:14:22,163 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:14:22,164 INFO stopped: xterm (exit status 15)
+2022-01-27 11:14:22,191 INFO stopped: websockify (exit status 0)
+2022-01-27 11:14:22,194 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:14:22,195 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:14:22,202 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:14:56,067 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:14:56,069 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:14:56,069 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:14:56,069 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:14:56,069 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:14:56,076 INFO supervisord started with pid 6
+2022-01-27 11:14:57,079 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:14:57,080 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:14:57,082 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:14:57,083 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:14:57,084 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:14:57,133 INFO exited: fluxbox (exit status 1; not expected)
+2022-01-27 11:14:57,134 INFO exited: xterm (exit status 1; not expected)
+2022-01-27 11:14:58,495 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:58,495 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:58,496 INFO spawned: 'fluxbox' with pid 51
+2022-01-27 11:14:58,496 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:14:58,497 INFO spawned: 'xterm' with pid 52
+2022-01-27 11:15:00,459 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:15:00,459 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:15:48,232 WARN received SIGINT indicating exit request
+2022-01-27 11:15:48,232 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:15:48,234 INFO stopped: xterm (exit status 15)
+2022-01-27 11:15:48,272 INFO stopped: websockify (exit status 0)
+2022-01-27 11:15:48,274 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:15:48,276 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:15:48,284 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:16:13,230 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:16:13,232 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:16:13,232 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:16:13,232 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:16:13,232 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:16:13,245 INFO supervisord started with pid 6
+2022-01-27 11:16:14,247 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:16:14,249 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:16:14,250 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:16:14,251 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:16:14,253 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:16:15,449 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:16:15,451 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:16:15,451 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:16:15,451 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:16:15,451 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:17:10,709 WARN received SIGINT indicating exit request
+2022-01-27 11:17:10,709 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:17:10,710 INFO stopped: xterm (exit status 15)
+2022-01-27 11:17:10,747 INFO stopped: websockify (exit status 0)
+2022-01-27 11:17:10,751 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:17:10,753 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:17:10,762 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:19:10,260 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:19:10,261 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:19:10,261 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:19:10,261 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:19:10,261 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:19:10,270 INFO supervisord started with pid 6
+2022-01-27 11:19:11,273 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:19:11,274 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:19:11,275 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:19:11,277 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:19:11,278 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:19:12,473 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:19:12,473 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:19:12,473 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:19:12,473 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:19:12,473 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:20:43,098 WARN received SIGINT indicating exit request
+2022-01-27 11:20:43,098 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:20:43,100 INFO stopped: xterm (exit status 15)
+2022-01-27 11:20:43,134 INFO stopped: websockify (exit status 0)
+2022-01-27 11:20:43,136 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:20:43,138 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:20:43,146 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:22:10,394 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:22:10,395 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:22:10,395 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:22:10,395 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:22:10,395 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:22:10,398 INFO supervisord started with pid 6
+2022-01-27 11:22:11,401 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:22:11,402 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:22:11,403 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:22:11,405 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:22:11,406 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:22:12,599 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:22:12,599 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:22:12,599 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:22:12,599 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:22:12,600 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:06,968 WARN received SIGINT indicating exit request
+2022-01-27 11:23:06,969 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:23:06,971 INFO stopped: xterm (exit status 15)
+2022-01-27 11:23:07,007 INFO stopped: websockify (exit status 0)
+2022-01-27 11:23:07,012 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:23:07,014 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:23:07,022 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:23:22,904 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:23:22,904 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:23:22,904 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:23:22,904 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:23:22,904 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:23:22,908 INFO supervisord started with pid 6
+2022-01-27 11:23:23,910 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:23:23,913 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:23:23,914 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:23:23,916 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:23:23,918 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:23:25,126 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:25,126 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:25,126 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:25,126 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:25,127 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:40,041 WARN received SIGINT indicating exit request
+2022-01-27 11:23:40,041 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:23:40,042 INFO stopped: xterm (exit status 15)
+2022-01-27 11:23:40,074 INFO stopped: websockify (exit status 0)
+2022-01-27 11:23:40,077 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:23:40,078 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:23:40,087 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:23:57,233 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:23:57,235 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:23:57,235 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:23:57,235 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:23:57,235 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:23:57,244 INFO supervisord started with pid 6
+2022-01-27 11:23:58,247 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:23:58,248 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:23:58,249 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:23:58,251 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:23:58,252 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:23:58,350 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:23:59,446 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:59,447 INFO spawned: 'x11vnc' with pid 78
+2022-01-27 11:23:59,447 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:59,447 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:59,447 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:23:59,472 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:24:01,475 INFO spawned: 'x11vnc' with pid 79
+2022-01-27 11:24:01,500 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:24:04,506 INFO spawned: 'x11vnc' with pid 80
+2022-01-27 11:24:04,535 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:24:09,169 INFO spawned: 'x11vnc' with pid 82
+2022-01-27 11:24:09,194 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:24:14,864 INFO spawned: 'x11vnc' with pid 84
+2022-01-27 11:24:14,890 INFO exited: x11vnc (exit status 1; not expected)
+2022-01-27 11:24:16,893 WARN received SIGINT indicating exit request
+2022-01-27 11:24:16,893 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:24:16,894 INFO stopped: xterm (exit status 15)
+2022-01-27 11:24:16,925 INFO stopped: websockify (exit status 0)
+2022-01-27 11:24:16,930 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:24:17,938 INFO stopped: xvfb (exit status 0)
+2022-01-27 11:24:53,696 INFO Included extra file "/app/conf.d/fluxbox.conf" during parsing
+2022-01-27 11:24:53,698 INFO Included extra file "/app/conf.d/websockify.conf" during parsing
+2022-01-27 11:24:53,698 INFO Included extra file "/app/conf.d/x11vnc.conf" during parsing
+2022-01-27 11:24:53,698 INFO Included extra file "/app/conf.d/xterm.conf" during parsing
+2022-01-27 11:24:53,698 INFO Included extra file "/app/conf.d/xvfb.conf" during parsing
+2022-01-27 11:24:53,707 INFO supervisord started with pid 6
+2022-01-27 11:24:54,709 INFO spawned: 'xvfb' with pid 8
+2022-01-27 11:24:54,711 INFO spawned: 'x11vnc' with pid 9
+2022-01-27 11:24:54,714 INFO spawned: 'fluxbox' with pid 10
+2022-01-27 11:24:54,715 INFO spawned: 'websockify' with pid 11
+2022-01-27 11:24:54,716 INFO spawned: 'xterm' with pid 12
+2022-01-27 11:24:54,770 INFO exited: xterm (exit status 1; not expected)
+2022-01-27 11:24:54,770 INFO exited: fluxbox (exit status 1; not expected)
+2022-01-27 11:24:56,149 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:24:56,149 INFO success: x11vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:24:56,150 INFO spawned: 'fluxbox' with pid 51
+2022-01-27 11:24:56,150 INFO success: websockify entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:24:56,152 INFO spawned: 'xterm' with pid 52
+2022-01-27 11:24:57,161 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:24:57,162 INFO success: xterm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-01-27 11:26:08,477 WARN received SIGINT indicating exit request
+2022-01-27 11:26:08,478 INFO waiting for xvfb, x11vnc, fluxbox, websockify, xterm to die
+2022-01-27 11:26:08,481 INFO stopped: xterm (exit status 15)
+2022-01-27 11:26:08,517 INFO stopped: websockify (exit status 0)
+2022-01-27 11:26:08,521 INFO stopped: fluxbox (exit status 0)
+2022-01-27 11:26:08,523 INFO stopped: x11vnc (exit status 2)
+2022-01-27 11:26:08,534 INFO stopped: xvfb (exit status 0)
